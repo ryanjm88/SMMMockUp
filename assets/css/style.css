@@ -1,0 +1,75 @@
+body{
+    background-color:  red;
+}
+
+#navbar{
+    background-color: black;
+}
+
+#middleRow{
+    background-color: black;
+    color: #fff;
+}
+
+.fa {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: #fff;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: #fff;
+}
+
+.fa-instagram   {
+    background: #2e5e86;
+    color: #fff
+}
+
+#footer-text{
+    margin-top: 15px;
+    color: black;
+}
+
+.container {
+    width: 1000px;
+    height: 550px;
+}
+
+.carousel{
+    margin-left: -20px;
+    margin-right: -20px;
+}
+
+#logoDiv{
+    background-color: red;
+    margin-right: -20px;
+    width: 100%;
+}
+
+#mission{
+    margin-bottom: -20px;
+}
+
+@media only screen and (max-width: 500px)  {
+    .container {
+        width: 500px;
+        height: 225px;
+    }
+}
