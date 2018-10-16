@@ -67,6 +67,44 @@ body{
     margin-bottom: -20px;
 }
 
+.btn-secondary{
+    margin-bottom: 20px;
+}
+
+.mainColumn{
+    margin-left: 5px;
+}
+
+#contactInfo{
+    color: black;
+    margin-top: 5px;
+}
+
+.emailAddy{
+    color: black;
+}
+
+#aboutRow{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#aboutPhoto{
+    height: 565px;
+    width: 377px;
+}
+
+#missionRow, #valuesRow{
+    color: black;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#valuesRow{
+    margin-bottom: 10px;
+}
+
 @media only screen and (max-width: 500px)  {
     .container {
         width: 500px;
