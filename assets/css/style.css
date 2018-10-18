@@ -129,6 +129,56 @@ body{
     background: rgba(39, 38, 38, 0.897);
 }
 
+.responsiveCal{
+    position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+    margin: 10px;
+}
+
+.responsiveCal iframe {
+    position: absolute; top:0; left: 0; width: 100%; height: 100%;   
+}
+
+#calendarHead{
+    color: #fff;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    text-shadow: 2px 2px rgba(39, 38, 38, 0.897);
+}
+
+#calendarCol{
+    background-image: url("../images/test8.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#calendarRow{
+    margin-bottom: 40px;
+}
+
+#calHeaderDiv{
+    border-radius: 0px;
+    border-bottom: black;
+    border-bottom-width: 20px;
+}
+
+#donatePicCol{
+    background-image: url("../images/test9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#donateCardCol{
+    width: 100%;
+    overflow: auto;
+    padding: 0px;
+}
+
+#donateCard{
+    border-radius: 0px;
+    margin: 0px;
+}
+
 @media only screen and (max-width: 500px)  {
     .container {
         width: 500px;
