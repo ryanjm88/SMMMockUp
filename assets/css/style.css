@@ -1,9 +1,11 @@
 body{
     background-color:  red;
+    overflow-x: hidden;
 }
 
 #navbar{
     background-color: black;
+    width: 100%;
 }
 
 #middleRow{
@@ -170,13 +172,50 @@ body{
 
 #donateCardCol{
     width: 100%;
-    overflow: auto;
     padding: 0px;
 }
 
 #donateCard{
+    width: 100%;
     border-radius: 0px;
-    margin: 0px;
+    border: none;
+}
+
+.mb-3{
+    margin: 0px!important;
+}
+
+#donateTitle{
+    color: #dc3545;
+}
+
+#partnerRow{
+    display: flex!important;
+    margin-bottom: 10px;
+}
+
+.partnerCol{
+    padding-left: 0px!important;
+    margin-bottom: 10px;
+}
+
+.partnerCard{
+    border-radius: 0px;
+    border: none;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+.partnerButton{
+    border-radius: 0px;
+}
+
+.card-img-top{
+    border-radius: 0px;
+    object-fit: cover;
+    height: 23vw;
 }
 
 @media only screen and (max-width: 500px)  {
