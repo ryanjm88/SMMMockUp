@@ -8,6 +8,11 @@ body{
     width: 100%;
 }
 
+.dropdown-menu{
+    border-radius: 0px;
+    border: none;
+}
+
 #middleRow{
     background-color: black;
     color: #fff;
@@ -208,7 +213,7 @@ body{
     height: 100%;
 }
 
-.partnerButton{
+.partnerButton, .volunteerButton{
     border-radius: 0px;
 }
 
