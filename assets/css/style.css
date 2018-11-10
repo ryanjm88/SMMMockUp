@@ -13,6 +13,11 @@ body{
     border: none;
 }
 
+a, a:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
 #middleRow{
     background-color: black;
     color: #fff;
