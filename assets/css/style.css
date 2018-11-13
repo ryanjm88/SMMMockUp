@@ -64,15 +64,36 @@ a, a:hover{
     height: 550px;
 }
 
-.carousel{
-    margin-left: -20px;
-    margin-right: -20px;
+#carouselDiv{
+    padding-right: -15px!important;
+    padding-left: -15px!important;
+}
+
+.top-left{
+    position: absolute;
+    top: 8px;
+    left: 16px;
 }
 
 #logoDiv{
-    background-color: red;
-    margin-right: -20px;
-    width: 100%;
+    background-image: url("../images/smmLogo.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: -30px;
+}
+
+#mainHeader, #subHeader{
+    color: #fff;
+    margin-left: 80px;
+    text-shadow: 1px 1px 11px rgba(0,0,0);
+}
+
+#mainHeader{
+    margin-top: 50px;
+}
+
+#mainPic{
+    opacity: 0.85;
 }
 
 #mission{
@@ -110,11 +131,13 @@ a, a:hover{
 }
 
 #missionRow{
-    color: black;
+    color: #fff;
     background-color: red;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    margin-left: 5px;
+    background-image: url("../images/test8.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 15px;
+    text-shadow: 1px 1px 11px rgba(0,0,0);
 }
 
 #valuesRow{
@@ -155,7 +178,7 @@ a, a:hover{
     margin-left: 10px;
     margin-bottom: 30px;
     margin-top: 20px;
-    text-shadow: 2px 2px rgba(39, 38, 38, 0.897);
+    text-shadow: 1px 1px 11px rgba(0,0,0);
 }
 
 #calendarCol{
@@ -165,7 +188,7 @@ a, a:hover{
 }
 
 #calendarRow{
-    margin-bottom: 40px;
+    margin-bottom: -2px;
 }
 
 #calHeaderDiv{
@@ -180,15 +203,24 @@ a, a:hover{
     background-size: cover;
 }
 
+#donateRow{
+    background-image: url("../images/test9.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
 #donateCardCol{
     width: 100%;
     padding: 0px;
 }
 
 #donateCard{
-    width: 100%;
     border-radius: 0px;
     border: none;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    opacity: 0.88;
+    width: 100%;
 }
 
 .mb-3{
@@ -228,13 +260,6 @@ a, a:hover{
     height: 23vw;
 }
 
-@media only screen and (max-width: 500px)  {
-    .container {
-        width: 500px;
-        height: 225px;
-    }
-}
-
 @media only screen and (max-width: 1023px)  {
     #aboutUs{
         background: rgba(39, 38, 38, 0.897);
@@ -247,5 +272,21 @@ a, a:hover{
         background-image: url('../../assets/images/test5.jpeg');
         color: #fff;
         background: rgba(39, 38, 38, 0.897);
+    }
+
+    #donateRow{
+        background-image: url("../images/test9a.jpg");
+    }
+
+    #mainHeader{
+        font-size: 20px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+
+    #subHeader{
+        font-size: 15px;
+        margin-left: 20px;
+        margin-top: 10px;
     }
 }
