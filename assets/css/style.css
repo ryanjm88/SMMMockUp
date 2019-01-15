@@ -1,6 +1,6 @@
 body{
     background-color:  red;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 #navbar{
@@ -123,6 +123,7 @@ a, a:hover{
     background-image: url('../../assets/images/test5.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
+    margin-top: -1px;
 }
 
 #aboutPhoto{
