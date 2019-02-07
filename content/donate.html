@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Single Mothers Matter</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -15,153 +15,158 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="navbar">
-        <a class="navbar-brand" href="../index.html">Single Mothers Matter</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-hover="dropdown">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown" data-hover="dropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Get Involved
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
-                        <a class="dropdown-item" id="donateButton2">Donate</a>
-                        <a class="dropdown-item" href="partner.html">Partner</a>
-                        <a class="dropdown-item" href="volunteer.html">Volunteer</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="programs.html">Programs</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Support Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
-                        <a class="dropdown-item" href="#">Support Groups</a>
-                        <a class="dropdown-item" href="#">The Furniture Bank of Metro Atlanta</a>
-                        <a class="dropdown-item" href="">Rideshare</a>
-                        <a class="dropdown-item" href="">Decorate a Room</a>
-                        <a class="dropdown-item" href="">Youth Cultural Arts Activities</a>
-                    </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.singlemothersmatterdecatur.org/blog" target="_blank">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="calendar.html">Calendar</a>
-                </li>
-            </ul>
-            <button type="button" class="btn btn-danger navbar-btn ml-auto" data-target=".navbar-collapse"><a href="donate.html">Donate</a></button>
-        </div>
-    </nav>
-    <div class="row" id="donateRow">
-        <div class="col-md-3">
-        </div>
-        <div class="col-md-6">
-            <center>
-                <div class="card" id="donateCard">
-                    <div class="card-body">
-                        <h2>Donate Now</h2><br>
-                        <h5>Your donations help Single Mothers Matter. <br><br>
-                            Click below to donate via PayPal.<br><br></h5>
-                        <button type="button" class="btn btn-danger" href="#">Donate</button>
-                    </div>
+    <div id="container">
+        <div id="navDiv">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="navbar">
+                <a class="navbar-brand" href="../index.html">Single Mothers Matter</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-hover="dropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" data-hover="dropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Get Involved
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
+                                <a class="dropdown-item" id="donateButton2">Donate</a>
+                                <a class="dropdown-item" href="partner.html">Partner</a>
+                                <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Support Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
+                                <a class="dropdown-item" href="#">Support Groups</a>
+                                <a class="dropdown-item" href="#">The Furniture Bank of Metro Atlanta</a>
+                                <a class="dropdown-item" href="">Rideshare</a>
+                                <a class="dropdown-item" href="">Decorate a Room</a>
+                                <a class="dropdown-item" href="">Youth Cultural Arts Activities</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.singlemothersmatterdecatur.org/blog" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="calendar.html">Calendar</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-danger navbar-btn ml-auto" id="donateButtonSub" data-target=".navbar-collapse"><a
+                            href="donate.html">Donate</a></button>
                 </div>
-            </center>
+            </nav>
         </div>
-        <div class="col-md-3">
-        </div>
-    </div>
-    <div class="row" id="middleRow">
-        <div class="col-md-1"></div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-1"></div>
-    </div>
-    <footer>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+        <div class="row" id="donateRow">
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
                 <center>
-                    <a href="https://www.facebook.com/singlemothersmatter/" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/singlemommatter" target="_blank" class="fa fa-twitter"></a>
-                    <a href="https://www.instagram.com/singlemothersmatter/" target="_blank" class="fa fa-instagram"></a>
+                    <div class="card" id="donateCard">
+                        <div class="card-body">
+                            <h2>Donate Now</h2><br>
+                            <h5>Your donations help Single Mothers Matter. <br><br>
+                                Click below to donate via PayPal.<br><br></h5>
+                            <button type="button" class="btn btn-danger" href="#">Donate</button>
+                        </div>
+                    </div>
                 </center>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-3">
+            </div>
         </div>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+        <div class="row" id="middleRow">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
                 <center>
-                    <p id="contactInfo">678.886.9751 <a href="mailto:singlemothersmatter@yahoo.com" target="_blank"
-                            class="emailAddy">singlemothersmatter@yahoo.com</a></p>
-                            <p id="footer-text">&copy; Single Mothers Matter</p>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
                 </center>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
+                <center>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
+                </center>
+            </div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
+                <center>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
+                </center>
+            </div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
+                <center>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
+                </center>
+            </div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
+                <center>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
+                </center>
+            </div>
+            <div class="col-md-1"></div>
         </div>
-    </footer>
+        <footer>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <center>
+                        <a href="https://www.facebook.com/singlemothersmatter/" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/singlemommatter" target="_blank" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/singlemothersmatter/" target="_blank" class="fa fa-instagram"></a>
+                    </center>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <center>
+                        <p id="contactInfo">678.886.9751 <a href="mailto:singlemothersmatter@yahoo.com" target="_blank"
+                                class="emailAddy">singlemothersmatter@yahoo.com</a></p>
+                        <p id="footer-text">&copy; Single Mothers Matter</p>
+                    </center>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

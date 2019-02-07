@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Single Mothers Matter</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
@@ -15,252 +15,265 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="navbar">
-        <a class="navbar-brand" href="../index.html">Single Mothers Matter</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
-            aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-hover="dropdown">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown" data-hover="dropdown">
-            <ul class="navbar-nav">
-                <li class="nav-item active">
-                    <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Get Involved
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
-                        <a class="dropdown-item" href="donate.html" id="donateButton2">Donate</a>
-                        <a class="dropdown-item" href="partner.html">Partner</a>
-                        <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+    <div id="container">
+        <div id="navDiv">
+            <nav class="navbar navbar-expand-lg navbar-dark navbar-fixed-top" id="navbar">
+                <a class="navbar-brand" href="../index.html">Single Mothers Matter</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                    aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation" data-hover="dropdown">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown" data-hover="dropdown">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="../index.html">Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Get Involved
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
+                                <a class="dropdown-item" href="donate.html" id="donateButton2">Donate</a>
+                                <a class="dropdown-item" href="partner.html">Partner</a>
+                                <a class="dropdown-item" href="volunteer.html">Volunteer</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                                data-toggle="dropdown" data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Support Services
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
+                                <a class="dropdown-item" href="#">Support Groups</a>
+                                <a class="dropdown-item" href="#">The Furniture Bank of Metro Atlanta</a>
+                                <a class="dropdown-item" href="">Rideshare</a>
+                                <a class="dropdown-item" href="">Decorate a Room</a>
+                                <a class="dropdown-item" href="">Youth Cultural Arts Activities</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.singlemothersmatterdecatur.org/blog" target="_blank">Blog</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="calendar.html">Calendar</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-danger navbar-btn ml-auto" id="donateButtonSub" data-target=".navbar-collapse"><a
+                            href="donate.html">Donate</a></button>
+                </div>
+            </nav>
+        </div>
+        <div class="row" id="partnerRow">
+            <div class="col-md-4 partnerCol">
+                <div class="card partnerCard">
+                    <img class="card-img-top" src="../assets/images/test10.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <center>
+                            <h5 class="card-title">Career and Life Coaching</h5>
+                            <p class="card-text">Career and Life coaches are available to mothers that need help with
+                                determining the direction that they aspire to pursue in their career or life in
+                                general. We
+                                understand how effective professional coaching can be when mothers are making life
+                                altering
+                                decisions that impact the future of their families. Therefore, certified life coaches
+                                are
+                                eager to cultivate relationships and help mothers develop action plans that will
+                                ultimately
+                                enable them to experience new careers and fulfill passions and life purpose.</p>
+                            <a href="#" class="btn btn-danger partnerButton">Learn More</a>
+                        </center>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="programs.html">Programs</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown"
-                        data-hover="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Support Services
-                    </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink" data-hover="dropdown">
-                        <a class="dropdown-item" href="#">Support Groups</a>
-                        <a class="dropdown-item" href="#">The Furniture Bank of Metro Atlanta</a>
-                        <a class="dropdown-item" href="">Rideshare</a>
-                        <a class="dropdown-item" href="">Decorate a Room</a>
-                        <a class="dropdown-item" href="">Youth Cultural Arts Activities</a>
+                </div>
+            </div>
+            <div class="col-md-4 partnerCol">
+                <div class="card partnerCard">
+                    <img class="card-img-top" src="../assets/images/test11.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <center>
+                            <h5 class="card-title">Leadership and Communication Development</h5>
+                            <p class="card-text">In alignment with our vision, we have established Single Mothers
+                                Matter
+                                Toastmasters club. Mothers will develop and enhance communication, grammar, public
+                                speaking
+                                and leadership skills as a participant. It is our desire that as a result of this
+                                development and others, mothers will be able increase their income by transitioning on
+                                their jobs from one level to a higher level, from jobs to entrepreneurship, or becoming
+                                leaders within their community and more.
+                            </p>
+                            <a href="#" class="btn btn-danger partnerButton">Learn More</a>
+                        </center>
                     </div>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="https://www.singlemothersmatterdecatur.org/blog" target="_blank">Blog</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="calendar.html">Calendar</a>
-                </li>
-            </ul>
-            <button type="button" class="btn btn-danger navbar-btn ml-auto" data-target=".navbar-collapse"><a href="donate.html">Donate</a></button>
-        </div>
-    </nav>
-    <div class="row" id="partnerRow">
-        <div class="col-md-4 partnerCol">
-            <div class="card partnerCard">
-                <img class="card-img-top" src="../assets/images/test10.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h5 class="card-title">Career and Life Coaching</h5>
-                        <p class="card-text">Career and Life coaches are available to mothers that need help with
-                            determining the direction that they aspire to pursue in their career or life in
-                            general. We
-                            understand how effective professional coaching can be when mothers are making life
-                            altering
-                            decisions that impact the future of their families. Therefore, certified life coaches
-                            are
-                            eager to cultivate relationships and help mothers develop action plans that will
-                            ultimately
-                            enable them to experience new careers and fulfill passions and life purpose.</p>
-                        <a href="#" class="btn btn-danger partnerButton">Learn More</a>
-                    </center>
+                </div>
+            </div>
+            <div class="col-md-4 partnerCol">
+                <div class="card partnerCard">
+                    <img class="card-img-top" src="../assets/images/test12.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <center>
+                            <h5 class="card-title">Business Development</h5>
+                            <p class="card-text">Many single mothers possess natural skills to do hair, nails, baking,
+                                and
+                                more. Many of which perform these services out of their homes as a means to generate
+                                extra
+                                income for their families and never consider that they can become completely self
+                                sufficient by providing these services. Single Mothers Matter promotes self employment
+                                by
+                                providing a How to Start Your Own Business and Business Plan Development classes; as
+                                well
+                                as the inspiration and encouragement needed to execute both.</p>
+                            <a href="#" class="btn btn-danger partnerButton">Learn More</a>
+                        </center>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 partnerCol">
-            <div class="card partnerCard">
-                <img class="card-img-top" src="../assets/images/test11.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h5 class="card-title">Leadership and Communication Development</h5>
-                        <p class="card-text">In alignment with our vision, we have established Single Mothers
-                            Matter
-                            Toastmasters club. Mothers will develop and enhance communication, grammar, public
-                            speaking
-                            and leadership skills as a participant. It is our desire that as a result of this
-                            development and others, mothers will be able increase their income by transitioning on
-                            their jobs from one level to a higher level, from jobs to entrepreneurship, or becoming
-                            leaders within their community and more.
-                        </p>
-                        <a href="#" class="btn btn-danger partnerButton">Learn More</a>
-                    </center>
+        <div class="row" id="partnerRow">
+            <div class="col-md-4 partnerCol">
+                <div class="card partnerCard">
+                    <img class="card-img-top" src="../assets/images/test13.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <center>
+                            <h5 class="card-title">Financial Literacy Education</h5>
+                            <p class="card-text">Financial literacy classes will be available to both mothers and teens
+                                and
+                                will bring awareness to several key areas that are essential for families to be
+                                prepared to
+                                live a financially independent life. Topics include creating a budget, opening a bank
+                                account, savings, establishing and repairing credit, home ownership, charity, and more.</p>
+                            <a href="#" class="btn btn-danger partnerButton">Learn More</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 partnerCol">
+                <div class="card partnerCard">
+                    <img class="card-img-top" src="../assets/images/test14.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <center>
+                            <h5 class="card-title">Parenting Education</h5>
+                            <p class="card-text">Parenting is both instinctive and it requires that parents aqiure
+                                skills.
+                                Single parenting demands can seem insurmountable and can cause parenting to be
+                                difficult
+                                for some mothers. In addition, children also encounter many challenges in today's
+                                culture
+                                that many mothers did not experience as a child. Finally, many mothers were the
+                                recipients
+                                of poor parenting which consequently did not position them to succeed. It is for these
+                                circumstances and more that Single Mothers Matter provides parenting education and
+                                develops
+                                skills in mothers that empowers them to be the caregivers that they desire to be.</p>
+                            <a href="#" class="btn btn-danger partnerButton">Learn More</a>
+                        </center>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 partnerCol">
+                <div class="card partnerCard">
+                    <img class="card-img-top" src="../assets/images/test15.jpeg" alt="Card image cap">
+                    <div class="card-body">
+                        <center>
+                            <h5 class="card-title">Transitional Housing</h5>
+                            <p class="card-text">With our organization's mission always in mind, we strive to find new
+                                strategies for dealing with this challenge. Homelessness is something that we take very
+                                seriously, and our team is working each and every day to make a positive impact. Many
+                                single mothers and their families are faced with this challenge at some point in their
+                                lives due to divorce, job loss, fleeing domestic violence, or other life altering
+                                situations. Contact us or make a donation to help us with our commitment to this cause
+                                by
+                                providing rooms, property, or money for extended stays in hotels.</p>
+                            <a href="#" class="btn btn-danger partnerButton">Learn More</a>
+                        </center>
+                    </div>
                 </div>
             </div>
         </div>
-        <div class="col-md-4 partnerCol">
-            <div class="card partnerCard">
-                <img class="card-img-top" src="../assets/images/test12.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h5 class="card-title">Business Development</h5>
-                        <p class="card-text">Many single mothers possess natural skills to do hair, nails, baking,
-                            and
-                            more. Many of which perform these services out of their homes as a means to generate
-                            extra
-                            income for their families and never consider that they can become completely self
-                            sufficient by providing these services. Single Mothers Matter promotes self employment
-                            by
-                            providing a How to Start Your Own Business and Business Plan Development classes; as
-                            well
-                            as the inspiration and encouragement needed to execute both.</p>
-                        <a href="#" class="btn btn-danger partnerButton">Learn More</a>
-                    </center>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row" id="partnerRow">
-        <div class="col-md-4 partnerCol">
-            <div class="card partnerCard">
-                <img class="card-img-top" src="../assets/images/test13.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h5 class="card-title">Financial Literacy Education</h5>
-                        <p class="card-text">Financial literacy classes will be available to both mothers and teens and
-                            will bring awareness to several key areas that are essential for families to be prepared to
-                            live a financially independent life. Topics include creating a budget, opening a bank
-                            account, savings, establishing and repairing credit, home ownership, charity, and more.</p>
-                        <a href="#" class="btn btn-danger partnerButton">Learn More</a>
-                    </center>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 partnerCol">
-            <div class="card partnerCard">
-                <img class="card-img-top" src="../assets/images/test14.jpg" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h5 class="card-title">Parenting Education</h5>
-                        <p class="card-text">Parenting is both instinctive and it requires that parents aqiure skills.
-                            Single parenting demands can seem insurmountable and can cause parenting to be difficult
-                            for some mothers. In addition, children also encounter many challenges in today's culture
-                            that many mothers did not experience as a child. Finally, many mothers were the recipients
-                            of poor parenting which consequently did not position them to succeed. It is for these
-                            circumstances and more that Single Mothers Matter provides parenting education and develops
-                            skills in mothers that empowers them to be the caregivers that they desire to be.</p>
-                        <a href="#" class="btn btn-danger partnerButton">Learn More</a>
-                    </center>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 partnerCol">
-            <div class="card partnerCard">
-                <img class="card-img-top" src="../assets/images/test15.jpeg" alt="Card image cap">
-                <div class="card-body">
-                    <center>
-                        <h5 class="card-title">Transitional Housing</h5>
-                        <p class="card-text">With our organization's mission always in mind, we strive to find new
-                            strategies for dealing with this challenge. Homelessness is something that we take very
-                            seriously, and our team is working each and every day to make a positive impact. Many
-                            single mothers and their families are faced with this challenge at some point in their
-                            lives due to divorce, job loss, fleeing domestic violence, or other life altering
-                            situations. Contact us or make a donation to help us with our commitment to this cause by
-                            providing rooms, property, or money for extended stays in hotels.</p>
-                        <a href="#" class="btn btn-danger partnerButton">Learn More</a>
-                    </center>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="row" id="middleRow">
-        <div class="col-md-1"></div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-2 mainColumn">
-            <h3>Text</h3>
-            <p>This is some text about the organization. This is where information about SMM goes. This might be a
-                link
-                to
-                an event, program, or partner.</p>
-            <center>
-                <button type="button" class="btn btn-secondary">Click Here</button>
-            </center>
-        </div>
-        <div class="col-md-1"></div>
-    </div>
-    <footer>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+        <div class="row" id="middleRow">
+            <div class="col-md-1"></div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
                 <center>
-                    <a href="https://www.facebook.com/singlemothersmatter/" target="_blank" class="fa fa-facebook"></a>
-                    <a href="https://twitter.com/singlemommatter" target="_blank" class="fa fa-twitter"></a>
-                    <a href="https://www.instagram.com/singlemothersmatter/" target="_blank" class="fa fa-instagram"></a>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
                 </center>
             </div>
-            <div class="col-md-4"></div>
-        </div>
-        <div class="row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
                 <center>
-                    <p id="contactInfo">678.886.9751 <a href="mailto:singlemothersmatter@yahoo.com" target="_blank"
-                            class="emailAddy">singlemothersmatter@yahoo.com</a></p>
-                            <p id="footer-text">&copy; Single Mothers Matter</p>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
                 </center>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
+                <center>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
+                </center>
+            </div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
+                <center>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
+                </center>
+            </div>
+            <div class="col-md-2 mainColumn">
+                <h3>Text</h3>
+                <p>This is some text about the organization. This is where information about SMM goes. This might be a
+                    link
+                    to
+                    an event, program, or partner.</p>
+                <center>
+                    <button type="button" class="btn btn-secondary">Click Here</button>
+                </center>
+            </div>
+            <div class="col-md-1"></div>
         </div>
-    </footer>
+        <footer>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <center>
+                        <a href="https://www.facebook.com/singlemothersmatter/" target="_blank" class="fa fa-facebook"></a>
+                        <a href="https://twitter.com/singlemommatter" target="_blank" class="fa fa-twitter"></a>
+                        <a href="https://www.instagram.com/singlemothersmatter/" target="_blank" class="fa fa-instagram"></a>
+                    </center>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
+                    <center>
+                        <p id="contactInfo">678.886.9751 <a href="mailto:singlemothersmatter@yahoo.com" target="_blank"
+                                class="emailAddy">singlemothersmatter@yahoo.com</a></p>
+                        <p id="footer-text">&copy; Single Mothers Matter</p>
+                    </center>
+                </div>
+                <div class="col-md-4"></div>
+            </div>
+        </footer>
+    </div>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>

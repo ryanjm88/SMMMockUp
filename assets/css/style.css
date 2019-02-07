@@ -1,11 +1,31 @@
 body{
     background-color:  red;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
+    width: 100%;
+}
+
+#container{
+    overflow-x:hidden;
+    width:100%;
+    position:relative;
+    height:100vh;
 }
 
 #navbar{
     background-color: black;
     width: 100%;
+}
+
+#navDiv{
+    margin-right: -15px;
+}
+
+#donateButton, #donateButtonSub {
+    margin-right: 15px;
+}
+
+#carouselCol{
+    padding-right: 0px!important;
 }
 
 .dropdown-menu{
@@ -59,10 +79,10 @@ a, a:hover{
     color: black;
 }
 
-.container {
+/* .container {
     width: 1000px;
     height: 550px;
-}
+} */
 
 #carouselDiv{
     padding-right: -15px!important;
@@ -262,6 +282,7 @@ a, a:hover{
 }
 
 @media only screen and (max-width: 1023px)  {
+
     #aboutUs{
         background: rgba(39, 38, 38, 0.897);
         color: #fff;
@@ -269,6 +290,7 @@ a, a:hover{
 }
 
 @media only screen and (max-width: 767px)   {
+
     #aboutUs{
         background-image: url('../../assets/images/test5.jpeg');
         color: #fff;
